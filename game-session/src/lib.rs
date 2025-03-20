@@ -291,4 +291,3 @@ extern "C" fn state() {
     msg::reply::<State>(game_session.clone().into(), 0)
         .expect("Failed to encode or reply with `GameSessionState` from `state()`");
 }
-
